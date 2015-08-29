@@ -1,5 +1,7 @@
 #lang racket
 
+; Using racket for the testing of the triangle
+
 (define (pascal row col)
   (cond ((= col 1) 1)
         ((= col row) 1)
