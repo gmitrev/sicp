@@ -1,5 +1,7 @@
 #lang scheme
 
+(provide make-interval upper-bound lower-bound add-interval mul-interval div-interval)
+
 (define (make-interval a b)
   (cons a b))
 
