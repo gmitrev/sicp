@@ -1,5 +1,7 @@
 #lang scheme
 
+(provide reverse)
+
 (define (reverse lst)
   (if (null? lst)
       '()

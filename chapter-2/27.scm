@@ -1,8 +1,6 @@
 #lang scheme
-(define (reverse lst)
-  (if (null? lst)
-      '()
-      (append (reverse (cdr lst)) (list (car lst)))))
+
+(require "18.scm")
 
 (define (deep-reverse lst)
   (if (null? lst)
