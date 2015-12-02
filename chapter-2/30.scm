@@ -1,4 +1,4 @@
-#lang racket
+#lang scheme
 
 (define tree
  (list 1

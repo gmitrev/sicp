@@ -1,4 +1,4 @@
-#lang racket
+#lang scheme
 
 (define (subsets s)
   (if (null? s)
