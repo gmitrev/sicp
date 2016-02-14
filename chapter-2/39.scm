@@ -20,6 +20,6 @@
 (reverse '(1 2 3))
 
 (define (reverse-2 sequence)
-  (fold-left (lambda (x y) (append (list x) y)) '() sequence))
+  (fold-left (lambda (x y) (append x y)) '() sequence))
 
-(reverse '(1 2 3))
+(reverse-2 '(1 2 3))
